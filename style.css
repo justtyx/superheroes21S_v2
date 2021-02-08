@@ -1,8 +1,60 @@
 * {
-  box-sizing: border-box; /* 'bxz' */
+  box-sizing: border-box;
+  /* 'bxz' */
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: lavender;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+footer {
+  margin: 1rem;
+}
+
+#hero {
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px grey;
+  padding: 1rem;
+  max-width: 20rem;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: darkgrey;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+p {
+  text-transform: lowercase;
+}
+
+p::first-letter {
+  text-transform: capitalize;
 }
